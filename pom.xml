@@ -34,7 +34,7 @@
     <deb.dependency.list>${deb.python.ver}</deb.dependency.list>
     <hadoop.version>3.1.1</hadoop.version>
     <surefire.argLine>-Xmx1024m -Xms512m</surefire.argLine>
-    <zookeeper.version>3.4.6.2.3.0.0-2557</zookeeper.version>
+    <zookeeper.version>3.4.6</zookeeper.version>
     <ambari-metrics.version>2.7.0.0.0</ambari-metrics.version>
     <skipSurefireTests>false</skipSurefireTests>
     <log4j2.version>2.10.0</log4j2.version>
@@ -58,11 +58,6 @@
 
   <repositories>
     <repository>
-      <id>apache-hadoop</id>
-      <name>hdp</name>
-      <url>http://repo.hortonworks.com/content/groups/public/</url>
-    </repository>
-    <repository>
       <id>oss.sonatype.org</id>
       <name>OSS Sonatype Staging</name>
       <url>https://oss.sonatype.org/content/groups/staging</url>
@@ -70,7 +65,7 @@
     <repository>
       <id>spring-milestones</id>
       <name>Spring Milestones</name>
-      <url>http://repo.spring.io/milestone</url>
+      <url>https://repo.spring.io/milestone</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
